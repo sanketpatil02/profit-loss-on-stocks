@@ -6,7 +6,7 @@ function calculateProfitOrLoss(initialPrice, quantityOfStocks, currentPrice) {
     if(initialPrice < currentPrice) {
         const profit = (currentPrice - initialPrice) * quantityOfStocks;
         const percent = (profit / initialPrice) * 100;
-        outputMessage.innerText = `Hey, Profit is ${profit} and percent is ${percent}%`;
+        outputMessage.innerText = `Hey, Profit is ${profit} and percent is ${percent}%🥳🥳`;
     }
     else if(currentPrice < initialPrice) {
         const loss = (initialPrice - currentPrice) * quantityOfStocks;
